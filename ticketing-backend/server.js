@@ -35,7 +35,7 @@ app.get('/api/status', (req, res) => {
     res.status(200).json({
         totalAdded: 10,
         totalSold: 5,
-        currentTickets: 5
+        currentTickets: 6
     });
 });
 
